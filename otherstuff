@@ -1,0 +1,87 @@
+nmap -sn 192.168.17.1-59,192.168.17.61-62 \
+          192.168.17.65-91,192.168.17.93-94 \
+          192.168.17.97-109 \
+          192.168.16.129-93,192.168.16.95-125,192.168.16.127-254 \
+          192.168.16.65-94 \
+          192.168.16.97-125 -oA scan_host_discovery
+
+
+----------------------------------------------------------
+nmap -sS -sV -O -T4 -p- -iL scan_host_discovery.gnmap -oA scan_services
+nmap -sV --script vuln -iL scan_host_discovery.gnmap -oA vuln_report
+
+----------------------------------------------------------
+
+# === SYSTEM HARDENING SCRIPT FOR WINDOWS ===
+
+# Run as Administrator!
+
+# 1. Enable Windows Firewall
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
+
+# 2. Disable SMBv1 (legacy protocol)
+Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol -NoRestart
+
+# 3. Disable guest account
+Net user guest /active:no
+
+# 4. Enable Windows Defender
+Set-MpPreference -DisableRealtimeMonitoring $false
+
+# 5. Enable SmartScreen
+Set-MpPreference -EnableNetworkProtection Enabled
+
+# 6. Configure password policy
+secedit /export /cfg C:\secpol.cfg
+(gc C:\secpol.cfg).replace("MinimumPasswordLength = 0","MinimumPasswordLength = 12") |
+  Out-File C:\secpol.cfg
+secedit /configure /db secedit.sdb /cfg C:\secpol.cfg
+
+# 7. Disable RDP if not needed
+Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" -Name "fDenyTSConnections" -Value 1
+
+# 8. Enable Windows Update
+Set-Service -Name wuauserv -StartupType Automatic
+Start-Service wuauserv
+
+# 9. Set auditing policy
+auditpol /set /subcategory:"Logon" /success:enable /failure:enable
+auditpol /set /subcategory:"Object Access" /success:enable /failure:enable
+auditpol /set /subcategory:"Privilege Use" /success:enable /failure:enable
+----------------------------------------------------------
+
+#!/bin/bash
+# === SYSTEM HARDENING SCRIPT FOR LINUX ===
+
+# 1. Update system
+apt update && apt upgrade -y
+
+# 2. Enable UFW firewall
+ufw default deny incoming
+ufw default allow outgoing
+ufw allow ssh
+ufw enable
+
+# 3. Disable root SSH login
+sed -i 's/^PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config
+systemctl restart sshd
+
+# 4. Set strong password policy
+apt install libpam-pwquality -y
+echo 'password requisite pam_pwquality.so retry=3 minlen=12 ucredit=-1 lcredit=-1 dcredit=-1' >> /etc/pam.d/common-password
+
+# 5. Enable automatic updates
+apt install unattended-upgrades -y
+dpkg-reconfigure --priority=low unattended-upgrades
+
+# 6. Set audit rules
+apt install auditd -y
+auditctl -e 1
+
+# 7. Remove unnecessary packages (example)
+apt purge telnet rsh-server xinetd -y
+
+# 8. Create a non-root admin
+adduser socadmin
+usermod -aG sudo socadmin
+
