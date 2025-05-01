@@ -1,0 +1,17 @@
+# Nmap 7.80 scan initiated Wed Apr 30 15:30:47 2025 as: nmap -Pn -sS -sV -O -T4 -A -p- -oA scan_host_discovery 192.168.17.1-59 192.168.17.61-62 192.168.17.65-91 192.168.17.93-94 192.168.17.97-109 192.168.16.93-129 192.168.16.95-125 192.168.16.127-254 192.168.16.65-94 192.168.16.97-125
+Host: 192.168.17.1 ()	Status: Up
+Host: 192.168.17.1 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)/	Ignored State: closed (65534)	Seq Index: 264	IP ID Seq: All zeros
+Host: 192.168.17.2 ()	Status: Up
+Host: 192.168.17.2 ()	Ports: 53/open/tcp//tcpwrapped///	Ignored State: closed (65534)	Seq Index: 259	IP ID Seq: All zeros
+Host: 192.168.17.3 ()	Status: Up
+Host: 192.168.17.3 ()	Ports: 53/open/tcp//tcpwrapped///	Ignored State: closed (65534)	Seq Index: 261	IP ID Seq: All zeros
+Host: 192.168.17.4 ()	Status: Up
+Host: 192.168.17.4 ()	Status: Up
+Host: 192.168.17.5 ()	Status: Up
+Host: 192.168.17.5 ()	Status: Up
+Host: 192.168.17.6 ()	Status: Up
+Host: 192.168.17.6 ()	Status: Up
+Host: 192.168.17.7 ()	Status: Up
+Host: 192.168.17.7 ()	Status: Up
+Host: 192.168.17.8 ()	Status: Up
+Host: 192.168.17.8 ()	Status: Up

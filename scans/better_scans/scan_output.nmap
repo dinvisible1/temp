@@ -1,0 +1,3932 @@
+# Nmap 7.80 scan initiated Wed Apr 30 21:20:56 2025 as: nmap -vv -Pn -sS -sV -O -T4 -p- -iL targets.txt --excludefile exclude.txt -oA scan_output
+Nmap scan report for 192.168.17.0
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.0 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%G=N%TM=6812CF66%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.1
+Host is up, received user-set (0.00066s latency).
+Scanned at 2025-04-30 21:20:56 EDT for 750s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=37664%PV=Y%DS=1%DC=I%G=Y%TM=6812CF6
+OS:6%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)SEQ
+OS:(SP=105%GCD=1%ISR=105%TI=Z%CI=Z%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O
+OS:3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=
+OS:FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 31.586 days (since Sun Mar 30 07:29:11 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.2
+Host is up, received user-set (0.0012s latency).
+Scanned at 2025-04-30 21:20:56 EDT for 750s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=41512%PV=Y%DS=2%DC=I%G=Y%TM=6812CF6
+OS:6%P=x86_64-pc-linux-gnu)SEQ(SP=109%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1
+OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 34.125 days (since Thu Mar 27 18:34:00 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.17.3
+Host is up, received user-set (0.0012s latency).
+Scanned at 2025-04-30 21:20:56 EDT for 750s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=40234%PV=Y%DS=2%DC=I%G=Y%TM=6812CF6
+OS:6%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1
+OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 5.676 days (since Fri Apr 25 05:19:20 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.17.4
+Host is up, received user-set (1.2s latency).
+All 65535 scanned ports on 192.168.17.4 are filtered because of 65316 no-responses and 219 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812CF66%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.5
+Host is up, received user-set (2.0s latency).
+All 65535 scanned ports on 192.168.17.5 are filtered because of 65525 no-responses and 10 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812CF66%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.6
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.6 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812CF66%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.7
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.7 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812CF66%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.8
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.17.8 are filtered because of 65528 no-responses and 7 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.9
+Host is up, received user-set (1.7s latency).
+All 65535 scanned ports on 192.168.17.9 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.10
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-04-30 21:33:26 EDT for 2565s
+Not shown: 65448 closed ports
+Reason: 65448 resets
+PORT      STATE SERVICE              REASON          VERSION
+25/tcp    open  smtp                 syn-ack ttl 127 Microsoft Exchange smtpd
+80/tcp    open  http                 syn-ack ttl 127 Microsoft IIS httpd 10.0
+81/tcp    open  http                 syn-ack ttl 127 Microsoft IIS httpd 10.0
+135/tcp   open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn          syn-ack ttl 127 Microsoft Windows netbios-ssn
+443/tcp   open  ssl/https            syn-ack ttl 127
+444/tcp   open  snpp?                syn-ack ttl 127
+445/tcp   open  microsoft-ds         syn-ack ttl 127 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+465/tcp   open  smtp                 syn-ack ttl 127 Microsoft Exchange smtpd
+475/tcp   open  smtp                 syn-ack ttl 127
+476/tcp   open  smtp                 syn-ack ttl 127
+477/tcp   open  smtp                 syn-ack ttl 127
+587/tcp   open  smtp                 syn-ack ttl 127 Microsoft Exchange smtpd
+593/tcp   open  ncacn_http           syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+717/tcp   open  smtp                 syn-ack ttl 127 Microsoft Exchange smtpd
+808/tcp   open  ccproxy-http?        syn-ack ttl 127
+890/tcp   open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+1801/tcp  open  msmq?                syn-ack ttl 127
+2103/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+2105/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+2107/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+2525/tcp  open  smtp                 syn-ack ttl 127 Microsoft Exchange smtpd
+3389/tcp  open  ms-wbt-server        syn-ack ttl 127 Microsoft Terminal Services
+3800/tcp  open  http                 syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3801/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3803/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3823/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3828/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3843/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3863/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3867/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3875/tcp  open  msexchange-logcopier syn-ack ttl 127 Microsoft Exchange 2010 log copier
+5985/tcp  open  http                 syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp  open  wsmans?              syn-ack ttl 127
+6001/tcp  open  ncacn_http           syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+6400/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6401/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6402/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6403/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6404/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6410/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6421/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6458/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6476/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6481/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6482/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6495/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6513/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6517/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6522/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6523/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6527/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6528/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6534/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6539/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6540/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6541/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6549/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6550/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6554/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6556/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6579/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6594/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6599/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6644/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6653/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6655/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6688/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6704/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6708/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6723/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6738/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6747/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6764/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6800/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6823/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6837/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6862/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6887/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6898/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+6984/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+8172/tcp  open  unknown              syn-ack ttl 127
+8693/tcp  open  msrpc                syn-ack ttl 127 Microsoft Windows RPC
+9710/tcp  open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+47001/tcp open  http                 syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+64327/tcp open  msexchange-logcopier syn-ack ttl 127 Microsoft Exchange 2010 log copier
+64337/tcp open  mc-nmf               syn-ack ttl 127 .NET Message Framing
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port475-TCP:V=7.80%I=7%D=4/30%Time=6812D88A%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,5F,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SER
+SF:VICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:19\x20-0400\r
+SF:\n")%r(GenericLines,B3,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ES
+SF:MTP\x20MAIL\x20SERVICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x202
+SF:2:12:19\x20-0400\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'unkno
+SF:wn'\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'unknown'\r\n")%r(G
+SF:etRequest,AF,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAI
+SF:L\x20SERVICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:30\x2
+SF:0-0400\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'GET'\r\n500\x20
+SF:5\.3\.3\x20Unrecognized\x20command\x20'unknown'\r\n")%r(Hello,13A,"220\
+SF:x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SERVICE\x20RE
+SF:ADY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:35\x20-0400\r\n250-ENTM
+SF:AIL\.drake\.south\x20Hello\x20\[192\.168\.15\.217\]\r\n250-SIZE\x203774
+SF:8736\r\n250-PIPELINING\r\n250-DSN\r\n250-ENHANCEDSTATUSCODES\r\n250-X-A
+SF:NONYMOUSTLS\r\n250-X-EXPS\x20GSSAPI\x20NTLM\r\n250-8BITMIME\r\n250-BINA
+SF:RYMIME\r\n250-CHUNKING\r\n250\x20SMTPUTF8\r\n")%r(Help,D1,"220\x20ENTMA
+SF:IL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SERVICE\x20READY\x20A
+SF:T\x20Wed,\x2030\x20Apr\x202025\x2022:12:42\x20-0400\r\n214-This\x20serv
+SF:er\x20supports\x20the\x20following\x20commands:\r\n214\x20HELO\x20EHLO\
+SF:x20STARTTLS\x20RCPT\x20DATA\x20RSET\x20MAIL\x20QUIT\x20HELP\x20AUTH\x20
+SF:BDAT\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port476-TCP:V=7.80%I=7%D=4/30%Time=6812D88A%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,5F,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SER
+SF:VICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:19\x20-0400\r
+SF:\n")%r(GenericLines,B3,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ES
+SF:MTP\x20MAIL\x20SERVICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x202
+SF:2:12:19\x20-0400\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'unkno
+SF:wn'\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'unknown'\r\n")%r(G
+SF:etRequest,AF,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAI
+SF:L\x20SERVICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:30\x2
+SF:0-0400\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'GET'\r\n500\x20
+SF:5\.3\.3\x20Unrecognized\x20command\x20'unknown'\r\n")%r(Hello,13A,"220\
+SF:x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SERVICE\x20RE
+SF:ADY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:35\x20-0400\r\n250-ENTM
+SF:AIL\.drake\.south\x20Hello\x20\[192\.168\.15\.217\]\r\n250-SIZE\x203774
+SF:8736\r\n250-PIPELINING\r\n250-DSN\r\n250-ENHANCEDSTATUSCODES\r\n250-X-A
+SF:NONYMOUSTLS\r\n250-X-EXPS\x20GSSAPI\x20NTLM\r\n250-8BITMIME\r\n250-BINA
+SF:RYMIME\r\n250-CHUNKING\r\n250\x20SMTPUTF8\r\n")%r(Help,D1,"220\x20ENTMA
+SF:IL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SERVICE\x20READY\x20A
+SF:T\x20Wed,\x2030\x20Apr\x202025\x2022:12:42\x20-0400\r\n214-This\x20serv
+SF:er\x20supports\x20the\x20following\x20commands:\r\n214\x20HELO\x20EHLO\
+SF:x20STARTTLS\x20RCPT\x20DATA\x20RSET\x20MAIL\x20QUIT\x20HELP\x20AUTH\x20
+SF:BDAT\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port477-TCP:V=7.80%I=7%D=4/30%Time=6812D88A%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,5F,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SER
+SF:VICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:19\x20-0400\r
+SF:\n")%r(GenericLines,B3,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ES
+SF:MTP\x20MAIL\x20SERVICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x202
+SF:2:12:19\x20-0400\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'unkno
+SF:wn'\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'unknown'\r\n")%r(G
+SF:etRequest,AF,"220\x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAI
+SF:L\x20SERVICE\x20READY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:30\x2
+SF:0-0400\r\n500\x205\.3\.3\x20Unrecognized\x20command\x20'GET'\r\n500\x20
+SF:5\.3\.3\x20Unrecognized\x20command\x20'unknown'\r\n")%r(Hello,13A,"220\
+SF:x20ENTMAIL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SERVICE\x20RE
+SF:ADY\x20AT\x20Wed,\x2030\x20Apr\x202025\x2022:12:35\x20-0400\r\n250-ENTM
+SF:AIL\.drake\.south\x20Hello\x20\[192\.168\.15\.217\]\r\n250-SIZE\x203774
+SF:8736\r\n250-PIPELINING\r\n250-DSN\r\n250-ENHANCEDSTATUSCODES\r\n250-X-A
+SF:NONYMOUSTLS\r\n250-X-EXPS\x20GSSAPI\x20NTLM\r\n250-8BITMIME\r\n250-BINA
+SF:RYMIME\r\n250-CHUNKING\r\n250\x20SMTPUTF8\r\n")%r(Help,D1,"220\x20ENTMA
+SF:IL\.drake\.south\x20MICROSOFT\x20ESMTP\x20MAIL\x20SERVICE\x20READY\x20A
+SF:T\x20Wed,\x2030\x20Apr\x202025\x2022:12:42\x20-0400\r\n214-This\x20serv
+SF:er\x20supports\x20the\x20following\x20commands:\r\n214\x20HELO\x20EHLO\
+SF:x20STARTTLS\x20RCPT\x20DATA\x20RSET\x20MAIL\x20QUIT\x20HELP\x20AUTH\x20
+SF:BDAT\r\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=25%CT=1%CU=36050%PV=Y%DS=2%DC=I%G=Y%TM=6812D96
+OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=
+OS:U)OPS(O1=M582NW8NNS%O2=M582NW8NNS%O3=M582NW8%O4=M582NW8NNS%O5=M582NW8NNS
+OS:%O6=M582NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%
+OS:DF=Y%T=80%W=FFFF%O=M582NW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S
+OS:=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=
+OS:Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTMAIL.drake.south; OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.17.11
+Host is up, received user-set (0.00099s latency).
+Scanned at 2025-04-30 21:33:26 EDT for 2566s
+Not shown: 65516 closed ports
+Reason: 65516 resets
+PORT      STATE SERVICE       REASON          VERSION
+80/tcp    open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+111/tcp   open  rpcbind       syn-ack ttl 127 2-4 (RPC #100000)
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+443/tcp   open  https?        syn-ack ttl 127
+445/tcp   open  microsoft-ds  syn-ack ttl 127 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: drake)
+2049/tcp  open  mountd        syn-ack ttl 127 1-3 (RPC #100005)
+3260/tcp  open  iscsi?        syn-ack ttl 127
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp  open  ssl/http      syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49703/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49704/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49734/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=80%CT=1%CU=34152%PV=Y%DS=2%DC=I%G=Y%TM=6812D96
+OS:C%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10D%TI=I%CI=I%II=I%SS=S%TS=
+OS:A)OPS(O1=M582NW8ST11%O2=M582NW8ST11%O3=M582NW8NNT11%O4=M582NW8ST11%O5=M5
+OS:82NW8ST11%O6=M582ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=200
+OS:0)ECN(R=Y%DF=Y%T=80%W=2000%O=M582NW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%
+OS:T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=
+OS:0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%
+OS:S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(
+OS:R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=
+OS:N%T=80%CD=Z)
+
+Uptime guess: 8.355 days (since Tue Apr 22 13:45:12 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTFILE; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.17.12
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.12 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.13
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.13 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.14
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.14 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.15
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.15 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.16
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.16 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.17
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.17 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.18
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.18 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.19
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.19 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.20
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.20 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.21
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.21 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.22
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.22 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.23
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.23 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.24
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.24 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.25
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.25 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.26
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.26 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.27
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.27 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.28
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.28 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.29
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.29 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.30
+Host is up, received user-set (0.89s latency).
+All 65535 scanned ports on 192.168.17.30 are filtered because of 65533 no-responses and 2 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.31
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.17.31 are filtered because of 65532 no-responses and 3 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.32
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.32 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.33
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.33 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.34
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.34 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.35
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.35 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.36
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.36 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.37
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.37 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.38
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.38 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.39
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.39 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.40
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.40 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96C%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.41
+Host is up, received user-set (0.00100s latency).
+Scanned at 2025-04-30 21:33:26 EDT for 2565s
+Not shown: 65521 closed ports
+Reason: 65521 resets
+PORT      STATE SERVICE       REASON          VERSION
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  syn-ack ttl 127 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp  open  ssl/http      syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49681/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49682/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49708/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=135%CT=1%CU=34343%PV=Y%DS=2%DC=I%G=Y%TM=6812D9
+OS:6C%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS
+OS:=A)OPS(O1=M582NW8ST11%O2=M582NW8ST11%O3=M582NW8NNT11%O4=M582NW8ST11%O5=M
+OS:582NW8ST11%O6=M582ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=20
+OS:00)ECN(R=Y%DF=Y%T=80%W=2000%O=M582NW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=
+OS:S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y
+OS:%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD
+OS:=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0
+OS:%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1
+OS:(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI
+OS:=N%T=80%CD=Z)
+
+Uptime guess: 8.360 days (since Tue Apr 22 13:37:09 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.17.42
+Host is up, received user-set (0.00098s latency).
+Scanned at 2025-04-30 21:33:26 EDT for 2565s
+Not shown: 65521 closed ports
+Reason: 65521 resets
+PORT      STATE SERVICE       REASON          VERSION
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  syn-ack ttl 127 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp  open  ssl/http      syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49672/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49679/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49682/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49702/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=135%CT=1%CU=39021%PV=Y%DS=2%DC=I%G=Y%TM=6812D9
+OS:6D%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS
+OS:=A)OPS(O1=M582NW8ST11%O2=M582NW8ST11%O3=M582NW8NNT11%O4=M582NW8ST11%O5=M
+OS:582NW8ST11%O6=M582ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=20
+OS:00)ECN(R=Y%DF=Y%T=80%W=2000%O=M582NW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=
+OS:S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y
+OS:%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD
+OS:=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0
+OS:%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1
+OS:(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI
+OS:=N%T=80%CD=Z)
+
+Uptime guess: 8.360 days (since Tue Apr 22 13:37:16 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.17.43
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.43 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.44
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.44 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.45
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.45 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.46
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.46 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.47
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.47 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.48
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.48 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.49
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.49 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.50
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.50 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.51
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.51 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.52
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.52 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.53
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.53 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.54
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.54 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.55
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.55 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.56
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.56 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.57
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.57 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.58
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.58 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.59
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.59 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.61
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.61 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.62
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.17.62 are filtered because of 65530 no-responses and 5 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.63
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.63 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.96
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.96 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812D96D%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.97
+Host is up, received user-set (0.00053s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=39556%PV=Y%DS=1%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=F8%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)SEQ(
+OS:SP=F8%GCD=1%ISR=105%TI=Z%CI=Z%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O3=
+OS:M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=FB
+OS:34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7
+OS:%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=
+OS:Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.914 days (since Wed Apr 30 01:11:28 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=248 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.98
+Host is up, received user-set (0.0012s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=38456%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10E%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1
+OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 40.303 days (since Fri Mar 21 15:50:40 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.17.99
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=30346%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1
+OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 28.453 days (since Wed Apr  2 12:14:35 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.17.100
+Host is up, received user-set (0.0013s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3051s
+Not shown: 65515 filtered ports
+Reason: 65515 no-responses
+PORT      STATE SERVICE       REASON          VERSION
+53/tcp    open  domain?       syn-ack ttl 127
+88/tcp    open  kerberos-sec  syn-ack ttl 127 Microsoft Windows Kerberos (server time: 2025-05-01 03:04:01Z)
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+389/tcp   open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: drake.south, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds  syn-ack ttl 127 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: drake)
+464/tcp   open  kpasswd5?     syn-ack ttl 127
+593/tcp   open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped    syn-ack ttl 127
+3268/tcp  open  ldap          syn-ack ttl 127 Microsoft Windows Active Directory LDAP (Domain: drake.south, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped    syn-ack ttl 127
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+9389/tcp  open  mc-nmf        syn-ack ttl 127 .NET Message Framing
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49673/tcp open  ncacn_http    syn-ack ttl 127 Microsoft Windows RPC over HTTP 1.0
+49674/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49693/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+52931/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=4/30%Time=6812E4A7%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2016|2012|2008|10 (91%)
+OS CPE: cpe:/o:microsoft:windows_server_2016 cpe:/o:microsoft:windows_server_2012 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_10:1607
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Microsoft Windows Server 2016 (91%), Microsoft Windows Server 2012 (85%), Microsoft Windows Server 2012 or Windows Server 2012 R2 (85%), Microsoft Windows Server 2012 R2 (85%), Microsoft Windows Server 2008 R2 (85%), Microsoft Windows 10 1607 (85%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=53%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+SEQ(SP=103%GCD=1%ISR=108%TI=I%II=I%SS=S%TS=A)
+OPS(O1=M582NW8ST11%O2=M582NW8ST11%O3=M582NW8NNT11%O4=M582NW8ST11%O5=M582NW8ST11%O6=M582ST11)
+WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)
+ECN(R=Y%DF=Y%TG=80%W=2000%O=M582NW8NNS%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=N)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Uptime guess: 8.408 days (since Tue Apr 22 13:18:56 2025)
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTDC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.17.101
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.101 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.102
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.102 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.103
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.103 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.104
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.104 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.105
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.105 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.106
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.106 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.107
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.107 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.108
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.108 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.109
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.109 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.111
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.111 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.64
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.64 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.65
+Host is up, received user-set (0.00052s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=31760%PV=Y%DS=1%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=10E%TI=Z%CI=Z%TS=A)SEQ(SP=FE
+OS:%GCD=1%ISR=10E%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O3=
+OS:M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=FB
+OS:34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7
+OS:%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=
+OS:Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 2.920 days (since Mon Apr 28 01:02:42 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=254 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.66
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=38413%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=106%TI=Z%CI=Z%TS=A)SEQ(SP=1
+OS:02%GCD=1%ISR=106%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NWD%O2=M582ST11NWD%O
+OS:3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST11NWD%O6=M582ST11)WIN(W1=FB34%W2=
+OS:FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSN
+OS:WD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 6.687 days (since Thu Apr 24 06:37:24 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.17.67
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=30750%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=FB%GCD=1%ISR=102%TI=Z%CI=Z%TS=A)SEQ(SP=FB
+OS:%GCD=1%ISR=102%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NWD%O2=M582ST11NWD%O3=
+OS:M582NNT11NWD%O4=M582ST11NWD%O5=M582ST11NWD%O6=M582ST11)WIN(W1=FB34%W2=FB
+OS:34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD
+OS:%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=
+OS:Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 1.688 days (since Tue Apr 29 06:36:27 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=251 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.17.68
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.68 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.69
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.69 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.70
+Host is up, received user-set (0.00090s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3051s
+Not shown: 65528 closed ports
+Reason: 65528 resets
+PORT     STATE SERVICE REASON         VERSION
+80/tcp   open  http    syn-ack ttl 63
+443/tcp  open  https   syn-ack ttl 63
+1717/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+1720/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+1721/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)
+1722/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+3306/tcp open  mysql?  syn-ack ttl 63
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=4/30%Time=6812E4A2%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,C2,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\ncache-control:
+SF:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>503\x
+SF:20Service\x20Unavailable</h1>\nNo\x20server\x20is\x20available\x20to\x2
+SF:0handle\x20this\x20request\.\n</body></html>\n\n")%r(HTTPOptions,C2,"HT
+SF:TP/1\.0\x20503\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\
+SF:r\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>503\x20Service\x20
+SF:Unavailable</h1>\nNo\x20server\x20is\x20available\x20to\x20handle\x20th
+SF:is\x20request\.\n</body></html>\n\n")%r(RTSPRequest,A9,"HTTP/1\.0\x2040
+SF:0\x20Bad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20t
+SF:ext/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20bro
+SF:wser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n")%r(X11P
+SF:robe,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cac
+SF:he\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20r
+SF:equest</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</b
+SF:ody></html>\n\n")%r(FourOhFourRequest,C2,"HTTP/1\.0\x20503\x20Service\x
+SF:20Unavailable\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/ht
+SF:ml\r\n\r\n<html><body><h1>503\x20Service\x20Unavailable</h1>\nNo\x20ser
+SF:ver\x20is\x20available\x20to\x20handle\x20this\x20request\.\n</body></h
+SF:tml>\n\n")%r(RPCCheck,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-c
+SF:ontrol:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h
+SF:1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\
+SF:x20request\.\n</body></html>\n\n")%r(DNSVersionBindReqTCP,A9,"HTTP/1\.0
+SF:\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type
+SF::\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\
+SF:x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n")%
+SF:r(DNSStatusRequestTCP,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-c
+SF:ontrol:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h
+SF:1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\
+SF:x20request\.\n</body></html>\n\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%I=7%D=4/30%Time=6812E4A2%P=x86_64-pc-linux-gnu%r(SSL
+SF:SessionReq,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20
+SF:no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Ba
+SF:d\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\
+SF:.\n</body></html>\n\n")%r(TLSSessionReq,A9,"HTTP/1\.0\x20400\x20Bad\x20
+SF:request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n
+SF:\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent
+SF:\x20an\x20invalid\x20request\.\n</body></html>\n\n")%r(SSLv23SessionReq
+SF:,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r
+SF:\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20reque
+SF:st</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body>
+SF:</html>\n\n")%r(X11Probe,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncach
+SF:e-control:\x20no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body
+SF:><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20inval
+SF:id\x20request\.\n</body></html>\n\n")%r(OpenVPN,A9,"HTTP/1\.0\x20400\x2
+SF:0Bad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/
+SF:html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser
+SF:\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n")%r(GetReque
+SF:st,C2,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\ncache-control:\x20
+SF:no-cache\r\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>503\x20Se
+SF:rvice\x20Unavailable</h1>\nNo\x20server\x20is\x20available\x20to\x20han
+SF:dle\x20this\x20request\.\n</body></html>\n\n")%r(HTTPOptions,C2,"HTTP/1
+SF:\.0\x20503\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\nc
+SF:ontent-type:\x20text/html\r\n\r\n<html><body><h1>503\x20Service\x20Unav
+SF:ailable</h1>\nNo\x20server\x20is\x20available\x20to\x20handle\x20this\x
+SF:20request\.\n</body></html>\n\n")%r(RTSPRequest,A9,"HTTP/1\.0\x20400\x2
+SF:0Bad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/
+SF:html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser
+SF:\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n")%r(RPCCheck
+SF:,A9,"HTTP/1\.0\x20400\x20Bad\x20request\r\ncache-control:\x20no-cache\r
+SF:\ncontent-type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20reque
+SF:st</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body>
+SF:</html>\n\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=80%CT=1%CU=42637%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=107%TI=Z%CI=Z%TS=A)SEQ(SP=1
+OS:05%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O
+OS:3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=
+OS:FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 29.359 days (since Tue Apr  1 14:30:33 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.71
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.71 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.72
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.72 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.73
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.73 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.74
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.74 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.75
+Host is up, received user-set (0.00092s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+3306/tcp open  mysql   syn-ack ttl 63 MySQL 5.5.5-10.6.21-MariaDB-0ubuntu0.22.04.2
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=34013%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST1
+OS:1NW7%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 17.301 days (since Sun Apr 13 15:53:51 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.76
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.76 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.77
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.17.77 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.78
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.78 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.79
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.79 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.80
+Host is up, received user-set (0.00087s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.41 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=30904%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST1
+OS:1NW7%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 5.510 days (since Fri Apr 25 10:53:18 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.81
+Host is up, received user-set (0.00089s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack ttl 63 Node.js Express framework
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=31942%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10A%TI=Z%CI=Z%TS=A)SEQ(SP=1
+OS:08%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O
+OS:3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=
+OS:FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 7.844 days (since Wed Apr 23 02:51:59 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.17.82
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.82 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.83
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.83 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.84
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.84 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.85
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.85 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.86
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.86 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.87
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.87 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.88
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.88 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.89
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.89 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.90
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.90 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.91
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.91 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.93
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.93 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.94
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.94 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.17.95
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.17.95 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.128
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.128 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.129
+Host is up, received user-set (0.00047s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=42851%PV=Y%DS=1%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=105%TI=Z%CI=Z%TS=A)SEQ(SP=1
+OS:03%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O
+OS:3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=
+OS:FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)U1(R=N)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 49.503 days (since Wed Mar 12 11:03:10 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.16.130
+Host is up, received user-set (0.0013s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=35093%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1
+OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 1.012 days (since Tue Apr 29 22:49:33 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.16.131
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-04-30 22:16:13 EDT for 3050s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=39320%PV=Y%DS=2%DC=I%G=Y%TM=6812E55
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A)OPS
+OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1
+OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN
+OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Uptime guess: 34.360 days (since Thu Mar 27 14:28:20 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.16.132
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.132 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.133
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.133 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.134
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.134 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.135
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.135 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.136
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.136 are filtered because of 65388 no-responses and 147 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.137
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.137 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.138
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.138 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.139
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.139 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.140
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.140 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.141
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.141 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.142
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.142 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.143
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.143 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.144
+Host is up, received user-set (2.6s latency).
+All 65535 scanned ports on 192.168.16.144 are filtered because of 65509 no-responses and 26 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.145
+Host is up, received user-set (2.5s latency).
+All 65535 scanned ports on 192.168.16.145 are filtered because of 65499 no-responses and 36 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.146
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.146 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=4/30%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812E558%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.147
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.147 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.148
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.148 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.149
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.149 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.150
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.150 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.151
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.151 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.152
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.152 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.153
+Host is up, received user-set (0.0019s latency).
+Scanned at 2025-04-30 23:07:04 EDT for 3260s
+Not shown: 65518 closed ports
+Reason: 65518 resets
+PORT      STATE SERVICE       REASON          VERSION
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  syn-ack ttl 127 Microsoft Windows 7 - 10 microsoft-ds (workgroup: drake)
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+5040/tcp  open  unknown       syn-ack ttl 127
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp  open  ssl/http      syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49671/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49672/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49699/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49704/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=135%CT=1%CU=41252%PV=Y%DS=2%DC=I%G=Y%TM=6812F21
+OS:4%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=106%TI=I%CI=I%II=I%SS=S%TS=
+OS:U)OPS(O1=M582NW8NNS%O2=M582NW8NNS%O3=M582NW8%O4=M582NW8NNS%O5=M582NW8NNS
+OS:%O6=M582NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%
+OS:DF=Y%T=80%W=FFFF%O=M582NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S
+OS:=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=
+OS:Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTBUS2W10; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.16.154
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.154 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.155
+Host is up, received user-set (2.2s latency).
+All 65535 scanned ports on 192.168.16.155 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.156
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.156 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.157
+Host is up, received user-set (0.0010s latency).
+Scanned at 2025-04-30 23:07:04 EDT for 3260s
+Not shown: 65519 closed ports
+Reason: 65519 resets
+PORT      STATE SERVICE            REASON          VERSION
+22/tcp    open  ssh                syn-ack ttl 127 OpenSSH for_Windows_8.6 (protocol 2.0)
+135/tcp   open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn        syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       syn-ack ttl 127 Microsoft Windows 7 - 10 microsoft-ds (workgroup: drake)
+3389/tcp  open  ssl/ms-wbt-server? syn-ack ttl 127
+5040/tcp  open  unknown            syn-ack ttl 127
+7680/tcp  open  pando-pub?         syn-ack ttl 127
+49664/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49669/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49670/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49671/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49673/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=22%CT=1%CU=44631%PV=Y%DS=2%DC=I%G=Y%TM=6812F214
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10D%TI=I%CI=I%II=I%SS=S%TS=U
+OS:)OPS(O1=M582NW8NNS%O2=M582NW8NNS%O3=M582NW8%O4=M582NW8NNS%O5=M582NW8NNS%
+OS:O6=M582NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%D
+OS:F=Y%T=80%W=FFFF%O=M582NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=
+OS:Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y
+OS:%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R
+OS:%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=
+OS:80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z
+OS:)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTBUS8W11; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.16.158
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.158 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.159
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.159 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.160
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.160 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.161
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.161 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.162
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.162 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.163
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.163 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.164
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.164 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.165
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.165 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.166
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.166 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.167
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.167 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.168
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.168 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.169
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.169 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.170
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.170 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.171
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.171 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.172
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.172 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.173
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.173 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.174
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.174 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.175
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.175 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.176
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.176 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.177
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.177 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.178
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.178 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.179
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.179 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.180
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.180 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.181
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.181 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.182
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.182 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.183
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.183 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.184
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.184 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.185
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.185 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.186
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.186 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.187
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.187 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.188
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-04-30 23:07:04 EDT for 3260s
+Not shown: 65519 closed ports
+Reason: 65519 resets
+PORT      STATE SERVICE            REASON          VERSION
+22/tcp    open  ssh                syn-ack ttl 127 OpenSSH for_Windows_8.6 (protocol 2.0)
+135/tcp   open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn        syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       syn-ack ttl 127 Microsoft Windows 7 - 10 microsoft-ds (workgroup: drake)
+3389/tcp  open  ssl/ms-wbt-server? syn-ack ttl 127
+5040/tcp  open  unknown            syn-ack ttl 127
+7680/tcp  open  pando-pub?         syn-ack ttl 127
+49664/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49673/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49674/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49698/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49719/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=22%CT=1%CU=30027%PV=Y%DS=2%DC=I%G=Y%TM=6812F214
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S%TS=U
+OS:)OPS(O1=M582NW8NNS%O2=M582NW8NNS%O3=M582NW8%O4=M582NW8NNS%O5=M582NW8NNS%
+OS:O6=M582NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%D
+OS:F=Y%T=80%W=FFFF%O=M582NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=
+OS:Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y
+OS:%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R
+OS:%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=
+OS:80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z
+OS:)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTBUS6W11; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.16.189
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.189 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.190
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.190 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.191
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.191 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.192
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.192 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.193
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.193 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.194
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.194 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.195
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.195 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.196
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.196 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.197
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.197 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.198
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.198 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.199
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.199 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.200
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.200 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.201
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.201 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.202
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.202 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.203
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.203 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.204
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.204 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.205
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.205 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.206
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.206 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.207
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.207 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.208
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.208 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.209
+Host is up, received user-set (1.1s latency).
+All 65535 scanned ports on 192.168.16.209 are filtered because of 65533 no-responses and 2 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.210
+Host is up, received user-set (0.28s latency).
+All 65535 scanned ports on 192.168.16.210 are filtered because of 65463 no-responses and 72 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812F214%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.211
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.211 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.212
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.212 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.213
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.213 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.214
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.214 are filtered because of 65533 no-responses and 2 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.215
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.215 are filtered because of 65530 no-responses and 5 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.216
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.216 are filtered because of 65515 no-responses and 20 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.217
+Host is up, received user-set (0.64s latency).
+All 65535 scanned ports on 192.168.16.217 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.218
+Host is up, received user-set (3.0s latency).
+All 65535 scanned ports on 192.168.16.218 are filtered because of 65533 no-responses and 2 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.219
+Host is up, received user-set (2.6s latency).
+All 65535 scanned ports on 192.168.16.219 are filtered because of 65520 no-responses and 15 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.220
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.220 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.221
+Host is up, received user-set (2.8s latency).
+All 65535 scanned ports on 192.168.16.221 are filtered because of 65516 no-responses and 19 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.222
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.222 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.223
+Host is up, received user-set (2.9s latency).
+All 65535 scanned ports on 192.168.16.223 are filtered because of 65521 no-responses and 14 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.224
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.224 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.225
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.225 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.226
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.226 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.227
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.227 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.228
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.228 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.229
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.229 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.230
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.230 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.231
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.231 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.232
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.232 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.233
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.233 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.234
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.234 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.235
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.235 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.236
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.236 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.237
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.237 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.238
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.238 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.239
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.239 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.240
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.240 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.241
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.241 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.242
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.242 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.243
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.243 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.244
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.244 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.245
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.245 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.246
+Host is up, received user-set (0.0014s latency).
+Scanned at 2025-05-01 00:01:25 EDT for 2965s
+Not shown: 65518 closed ports
+Reason: 65518 resets
+PORT      STATE SERVICE       REASON          VERSION
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  syn-ack ttl 127 Microsoft Windows 7 - 10 microsoft-ds (workgroup: drake)
+3389/tcp  open  ms-wbt-server syn-ack ttl 127 Microsoft Terminal Services
+5040/tcp  open  unknown       syn-ack ttl 127
+5985/tcp  open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp  open  ssl/http      syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open  http          syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49668/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49671/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49673/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49694/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+49698/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=135%CT=1%CU=43385%PV=Y%DS=2%DC=I%G=Y%TM=6812FDA
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=
+OS:U)OPS(O1=M582NW8NNS%O2=M582NW8NNS%O3=M582NW8%O4=M582NW8NNS%O5=M582NW8NNS
+OS:%O6=M582NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%
+OS:DF=Y%T=80%W=FFFF%O=M582NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S
+OS:=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=
+OS:Z)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTBUS1W10; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.16.247
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.247 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.248
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.248 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.249
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.249 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.250
+Host is up, received user-set (3.1s latency).
+All 65535 scanned ports on 192.168.16.250 are filtered because of 65528 no-responses and 7 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.251
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.251 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.252
+Host is up, received user-set (0.00082s latency).
+Scanned at 2025-05-01 00:01:25 EDT for 2964s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 64 OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+4822/tcp open  unknown syn-ack ttl 64
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=22%CT=1%CU=31984%PV=Y%DS=2%DC=I%G=Y%TM=6812FDAA
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)OPS(
+OS:O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11
+OS:NW7%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(
+OS:R=Y%DF=Y%T=41%W=FD5C%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=41%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=41%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=41%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=41%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=41%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=41%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=41%CD=
+OS:S)
+
+Uptime guess: 7.358 days (since Wed Apr 23 16:15:37 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.16.253
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.253 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.254
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.254 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.255
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.255 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.64
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.64 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.65
+Host is up, received user-set (0.00066s latency).
+Scanned at 2025-05-01 00:01:24 EDT for 2965s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=22%CT=1%CU=34044%PV=Y%DS=1%DC=I%G=Y%TM=6812FDAA
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=107%TI=Z%CI=Z%TS=A)SEQ(SP=10
+OS:4%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O3
+OS:=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=F
+OS:B34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW
+OS:7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 9.393 days (since Mon Apr 21 15:24:54 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.16.66
+Host is up, received user-set (0.0013s latency).
+Scanned at 2025-05-01 00:01:24 EDT for 2965s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=53%CT=1%CU=30595%PV=Y%DS=2%DC=I%G=Y%TM=6812FDAA
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10F%TI=Z%CI=Z%II=I%TS=A)OPS(
+OS:O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST11
+OS:NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(
+OS:R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Uptime guess: 26.227 days (since Fri Apr  4 19:24:30 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.16.67
+Host is up, received user-set (0.0013s latency).
+Scanned at 2025-05-01 00:01:24 EDT for 2965s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=53%CT=1%CU=38406%PV=Y%DS=2%DC=I%G=Y%TM=6812FDAA
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)SEQ(
+OS:SP=107%GCD=1%ISR=10A%TI=Z%CI=Z%TS=A)OPS(O1=M582ST11NWD%O2=M582ST11NWD%O3
+OS:=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST11NWD%O6=M582ST11)WIN(W1=FB34%W2=F
+OS:B34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW
+OS:D%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 48.898 days (since Thu Mar 13 03:17:34 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.16.68
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.68 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.69
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.69 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.70
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.70 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.71
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.71 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.72
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.72 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.73
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.73 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.74
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.74 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.75
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.75 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.76
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.76 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.77
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.77 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.78
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.78 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.79
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.79 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.80
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.80 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.81
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.81 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.82
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.82 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=6812FDAA%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.83
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.83 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.84
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.84 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.85
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.85 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.86
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.86 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.87
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.87 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.88
+Host is up, received user-set (1.3s latency).
+All 65535 scanned ports on 192.168.16.88 are filtered because of 65529 no-responses and 6 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.89
+Host is up, received user-set (1.00s latency).
+All 65535 scanned ports on 192.168.16.89 are filtered because of 65534 no-responses and 1 host-unreach
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.90
+Host is up, received user-set (2.0s latency).
+All 65535 scanned ports on 192.168.16.90 are filtered because of 65525 no-responses and 10 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.91
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-05-01 00:50:50 EDT for 1826s
+Not shown: 65519 closed ports
+Reason: 65519 resets
+PORT      STATE SERVICE            REASON          VERSION
+22/tcp    open  ssh                syn-ack ttl 127 OpenSSH for_Windows_9.5 (protocol 2.0)
+135/tcp   open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn        syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       syn-ack ttl 127 Microsoft Windows 7 - 10 microsoft-ds (workgroup: drake)
+3389/tcp  open  ssl/ms-wbt-server? syn-ack ttl 127
+5040/tcp  open  unknown            syn-ack ttl 127
+7680/tcp  open  pando-pub?         syn-ack ttl 127
+49664/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49665/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49666/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49669/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49670/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49673/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49674/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49697/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+49705/tcp open  msrpc              syn-ack ttl 127 Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=22%CT=1%CU=34438%PV=Y%DS=2%DC=I%G=Y%TM=681304CC
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=U
+OS:)OPS(O1=M582NW8NNS%O2=M582NW8NNS%O3=M582NW8%O4=M582NW8NNS%O5=M582NW8NNS%
+OS:O6=M582NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%D
+OS:F=Y%T=80%W=FFFF%O=M582NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=
+OS:Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y
+OS:%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R
+OS:%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=
+OS:80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z
+OS:)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: ENTADM1W11; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.16.92
+Host is up, received user-set (2.6s latency).
+All 65535 scanned ports on 192.168.16.92 are filtered because of 65523 no-responses and 12 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.93
+Host is up, received user-set (2.0s latency).
+All 65535 scanned ports on 192.168.16.93 are filtered because of 65517 no-responses and 18 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.95
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.95 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.96
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.96 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.97
+Host is up, received user-set (0.00057s latency).
+Scanned at 2025-05-01 00:50:50 EDT for 1826s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=22%CT=1%CU=30533%PV=Y%DS=1%DC=I%G=Y%TM=681304CC
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)OPS(
+OS:O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11
+OS:NW7%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(
+OS:R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)U1(R=N)IE(R=Y%DFI=N%T
+OS:=40%CD=S)
+
+Uptime guess: 38.104 days (since Sun Mar 23 22:51:50 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.16.98
+Host is up, received user-set (0.0013s latency).
+Scanned at 2025-05-01 00:50:50 EDT for 1826s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=53%CT=1%CU=40625%PV=Y%DS=2%DC=I%G=Y%TM=681304CC
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=FF%GCD=1%ISR=FF%TI=Z%CI=Z%II=I%TS=A)OPS(O1
+OS:=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST11NW
+OS:D%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=
+OS:Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%R
+OS:D=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%
+OS:DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%
+OS:O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=4
+OS:0%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 8.568 days (since Tue Apr 22 11:43:08 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=255 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.16.99
+Host is up, received user-set (0.0011s latency).
+Scanned at 2025-05-01 00:50:50 EDT for 1826s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE    REASON         VERSION
+53/tcp open  tcpwrapped syn-ack ttl 63
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=53%CT=1%CU=36418%PV=Y%DS=2%DC=I%G=Y%TM=681304CC
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=FF%GCD=1%ISR=10F%TI=Z%CI=Z%II=I%TS=A)OPS(O
+OS:1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST11N
+OS:WD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R
+OS:=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y
+OS:%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R
+OS:%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=
+OS:40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S
+OS:)
+
+Uptime guess: 42.099 days (since Wed Mar 19 22:59:24 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Nmap scan report for 192.168.16.100
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.100 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.101
+Host is up, received user-set (0.00080s latency).
+Scanned at 2025-05-01 00:50:50 EDT for 1826s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT     STATE SERVICE REASON         VERSION
+2221/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=2221%CT=1%CU=37499%PV=Y%DS=2%DC=I%G=Y%TM=681304
+OS:CC%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A)OP
+OS:S(O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST
+OS:11NW7%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)EC
+OS:N(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(
+OS:R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%
+OS:F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N
+OS:%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%C
+OS:D=S)
+
+Uptime guess: 22.633 days (since Tue Apr  8 10:09:20 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.16.102
+Host is up, received user-set (0.00082s latency).
+Scanned at 2025-05-01 00:50:50 EDT for 1826s
+Not shown: 65531 closed ports
+Reason: 65531 resets
+PORT     STATE SERVICE REASON         VERSION
+2222/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+5710/tcp open  unknown syn-ack ttl 63
+6610/tcp open  http    syn-ack ttl 63 Jetty 9.4.54.v20240208
+6611/tcp open  ssh     syn-ack ttl 63 (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port6611-TCP:V=7.80%I=7%D=5/1%Time=68130461%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,1C,"SSH-2\.0-APACHE-SSHD-2\.12\.1\r\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/1%OT=2222%CT=1%CU=38265%PV=Y%DS=2%DC=I%G=Y%TM=681304
+OS:CC%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A)OP
+OS:S(O1=M582ST11NW7%O2=M582ST11NW7%O3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST
+OS:11NW7%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)EC
+OS:N(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(
+OS:R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%
+OS:F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N
+OS:%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%C
+OS:D=S)
+
+Uptime guess: 5.626 days (since Fri Apr 25 10:20:02 2025)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.16.103
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.103 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.104
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.104 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.105
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.105 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.106
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.106 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.107
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.107 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.108
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.108 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.109
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.109 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.110
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.110 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.111
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.111 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.112
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.112 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.113
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.113 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.114
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.114 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.115
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.115 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.116
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.116 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.117
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.117 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.118
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.118 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.119
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.119 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.120
+Host is up, received user-set (1.1s latency).
+All 65535 scanned ports on 192.168.16.120 are filtered because of 65533 no-responses and 2 host-unreaches
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.121
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.121 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.122
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.122 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.123
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.123 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.124
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.124 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.125
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.125 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Nmap scan report for 192.168.16.127
+Host is up, received user-set.
+All 65535 scanned ports on 192.168.16.127 are filtered because of 65535 no-responses
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=5/1%OT=%CT=%CU=%PV=Y%DC=I%G=N%TM=681304CC%P=x86_64-pc-linux-gnu)
+U1(R=N)
+IE(R=N)
+
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May  1 01:21:16 2025 -- 299 IP addresses (299 hosts up) scanned in 14420.38 seconds

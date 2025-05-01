@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Wed Apr 30 15:30:47 2025 as: nmap -Pn -sS -sV -O -T4 -A -p- -oA scan_host_discovery 192.168.17.1-59 192.168.17.61-62 192.168.17.65-91 192.168.17.93-94 192.168.17.97-109 192.168.16.93-129 192.168.16.95-125 192.168.16.127-254 192.168.16.65-94 192.168.16.97-125 -->
+<nmaprun scanner="nmap" args="nmap -Pn -sS -sV -O -T4 -A -p- -oA scan_host_discovery 192.168.17.1-59 192.168.17.61-62 192.168.17.65-91 192.168.17.93-94 192.168.17.97-109 192.168.16.93-129 192.168.16.95-125 192.168.16.127-254 192.168.16.65-94 192.168.16.97-125" start="1746041447" startstr="Wed Apr 30 15:30:47 2025" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="SYN Stealth Scan" time="1746041515" percent="12.80" remaining="464" etc="1746041978"/>
+<taskprogress task="SYN Stealth Scan" time="1746041651" percent="30.03" remaining="476" etc="1746042126"/>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="resets" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="7.9p1 Debian 10+deb10u2" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 a5:19:89:8b:cb:44:c1:f8:f4:8e:6d:c1:46:ef:eb:9a (RSA)&#xa;  256 cf:c2:bb:d0:15:5b:c6:7b:fd:06:90:29:3e:87:46:0c (ECDSA)&#xa;  256 e0:81:44:25:16:96:84:d6:e8:94:3f:4b:e4:05:a2:8b (ED25519)"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">a519898bcb44c1f8f48e6dc146efeb9a</elem>
+<elem key="bits">2048</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQC75lGINj+ukdRs+iE4XNX58XJFO+3O6kGpvQJheJMX0gOcZGnkxEzcgiLfQRPRS/TJz/sr7MCzIV2fiDSM6iPeEJdSiEg644tLdV60LdGfEVsrpTzRt3BttaKl+nQ1EevTq4UmWnyhA5E+PG7v5vT4Jav4IYRTVJRpkVdG8kAhpg7rwOQk0jcL5HQYJn2onl7dBlYR6pvb/nI0cM/mfvndi6j8X6M/kDtwafiJJmmX/n/XVxHqx0l7+nOLw+LOYAEiC8OI/2+C++dEmRBWKN7EjjC1O6IO34jJX1A9CT6pBpaYlJbwpQnqKQ9m4D2EYK8cdMaDfIansVodNgga0IkV</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">cfc2bbd0155bc67bfd0690293e87460c</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFBjaUUBJTgTmsoJx7QEO2fmYCisf/Pj7VMvgg/I9iEPp6E7+xuB1T3UdyGwJdqyBgucKnDzsgIhNx/fek0zPNw=</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">e0814425169684d6e8943f4be405a28b</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAINiqFU+7pKVu6W/yGq6NfQ9mPo1mKtYfXf8rINnL634r</elem>
+</table>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="37708"/>
+<osmatch name="Linux 3.1" accuracy="95" line="62708">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="64455">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="61606">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="8344">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Adtran 424RG FTTH gateway" accuracy="92" line="1579">
+<osclass type="specialized" vendor="Adtran" osfamily="embedded" accuracy="92"><cpe>cpe:/h:adtran:424rg</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39 - 3.2" accuracy="92" line="58074">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1 - 3.2" accuracy="92" line="62728">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="92" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.80%E=4%D=4/30%OT=22%CT=1%CU=37708%PV=Y%DS=1%DC=T%G=Y%TM=68127DB&#xa;OS:D%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=107%TI=Z%CI=Z%TS=A)SEQ(SP=1&#xa;OS:08%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M582ST11NW7%O2=M582ST11NW7%O&#xa;OS:3=M582NNT11NW7%O4=M582ST11NW7%O5=M582ST11NW7%O6=M582ST11)WIN(W1=FB34%W2=&#xa;OS:FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSN&#xa;OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D&#xa;OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O&#xa;OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W&#xa;OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R&#xa;OS:IPCK=G%RUCK=G%RUD=G)U1(R=N)IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="2708150" lastboot="Sun Mar 30 07:29:11 2025"/>
+<distance value="1"/>
+<tcpsequence index="264" difficulty="Good luck!" values="9424A5FD,9AE5E9BD,A162F3D4,109C4979,FE5F18D0,635D5FA6"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="A16A4959,A16A49BD,A16A4A21,A16A4A85,A16A4AEA,A16A4B4E"/>
+<trace port="21" proto="tcp">
+<hop ttl="1" ipaddr="192.168.17.1" rtt="0.89"/>
+</trace>
+<times srtt="513" rttvar="207" to="100000"/>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="resets" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="53"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="40831"/>
+<osmatch name="Linux 3.1" accuracy="95" line="62708">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="64455">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="61606">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="8344">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39 - 3.2" accuracy="92" line="58074">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1 - 3.2" accuracy="92" line="62728">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.11" accuracy="92" line="63278">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3.11</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="92" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=40831%PV=Y%DS=2%DC=T%G=Y%TM=68127DB&#xa;OS:D%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)OPS&#xa;OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1&#xa;OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN&#xa;OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A&#xa;OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R&#xa;OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F&#xa;OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%&#xa;OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD&#xa;OS:=S)&#xa;"/>
+</os>
+<uptime seconds="2927460" lastboot="Thu Mar 27 18:34:01 2025"/>
+<distance value="2"/>
+<tcpsequence index="259" difficulty="Good luck!" values="618E380A,D13D4E42,9996E32A,56F93FC,248A14DA,697C0792"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="AE7CB2D6,AE7CB33A,AE7CB39E,AE7CB402,AE7CB466,AE7CB4CB"/>
+<trace port="21" proto="tcp">
+<hop ttl="1" ipaddr="192.168.15.1" rtt="0.90" host="_gateway"/>
+<hop ttl="2" ipaddr="192.168.17.2" rtt="8.49"/>
+</trace>
+<times srtt="1716" rttvar="1986" to="100000"/>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="resets" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="53"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="41398"/>
+<osmatch name="Linux 3.1" accuracy="95" line="62708">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="64455">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="61606">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="8344">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="63962">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Adtran 424RG FTTH gateway" accuracy="92" line="1579">
+<osclass type="specialized" vendor="Adtran" osfamily="embedded" accuracy="92"><cpe>cpe:/h:adtran:424rg</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="92" line="55173">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.39 - 3.2" accuracy="92" line="58074">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1 - 3.2" accuracy="92" line="62728">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.9" accuracy="92" line="65105">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="92"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.80%E=4%D=4/30%OT=53%CT=1%CU=41398%PV=Y%DS=2%DC=T%G=Y%TM=68127DB&#xa;OS:D%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)OPS&#xa;OS:(O1=M582ST11NWD%O2=M582ST11NWD%O3=M582NNT11NWD%O4=M582ST11NWD%O5=M582ST1&#xa;OS:1NWD%O6=M582ST11)WIN(W1=FB34%W2=FB34%W3=FB34%W4=FB34%W5=FB34%W6=FB34)ECN&#xa;OS:(R=Y%DF=Y%T=40%W=FD5C%O=M582NNSNWD%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A&#xa;OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R&#xa;OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F&#xa;OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%&#xa;OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD&#xa;OS:=S)&#xa;"/>
+</os>
+<uptime seconds="469541" lastboot="Fri Apr 25 05:19:20 2025"/>
+<distance value="2"/>
+<tcpsequence index="261" difficulty="Good luck!" values="CA007547,704BA4FA,81215032,9258934D,56DB51E3,F1F27C4A"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="1BFBD2EE,1BFBD352,1BFBD3B6,1BFBD41A,1BFBD47E,1BFBD4E2"/>
+<trace port="21" proto="tcp">
+<hop ttl="1" ipaddr="192.168.15.1" rtt="0.90" host="_gateway"/>
+<hop ttl="2" ipaddr="192.168.17.3" rtt="1.43"/>
+</trace>
+<times srtt="1029" rttvar="188" to="100000"/>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.4" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65506"/>
+<extrareasons reason="host-unreaches" count="29"/>
+</extraports>
+</ports>
+<os></os>
+<trace proto="icmp">
+<hop ttl="14" ipaddr="192.168.15.1" rtt="1124.59" host="_gateway"/>
+<hop ttl="15" ipaddr="192.168.15.1" rtt="1053.90" host="_gateway"/>
+<hop ttl="16" ipaddr="192.168.15.1" rtt="1997.06" host="_gateway"/>
+<hop ttl="17" ipaddr="192.168.15.1" rtt="1060.19" host="_gateway"/>
+<hop ttl="18" ipaddr="192.168.15.1" rtt="2050.17" host="_gateway"/>
+<hop ttl="21" ipaddr="192.168.15.1" rtt="2061.61" host="_gateway"/>
+<hop ttl="25" ipaddr="192.168.15.1" rtt="3051.50" host="_gateway"/>
+</trace>
+<times srtt="1039505" rttvar="119748" to="1250000"/>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65535"/>
+</extraports>
+</ports>
+<os></os>
+<trace proto="icmp">
+<hop ttl="2" ipaddr="192.168.15.1" rtt="3081.45" host="_gateway"/>
+<hop ttl="11" ipaddr="192.168.15.1" rtt="3101.70" host="_gateway"/>
+<hop ttl="12" ipaddr="192.168.15.1" rtt="86.52" host="_gateway"/>
+<hop ttl="14" ipaddr="192.168.15.1" rtt="1097.39" host="_gateway"/>
+<hop ttl="22" ipaddr="192.168.15.1" rtt="1043.18" host="_gateway"/>
+<hop ttl="24" ipaddr="192.168.15.1" rtt="2047.61" host="_gateway"/>
+<hop ttl="26" ipaddr="192.168.15.1" rtt="3057.75" host="_gateway"/>
+</trace>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65535"/>
+</extraports>
+</ports>
+<os></os>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="192.168.15.1" rtt="0.90" host="_gateway"/>
+<hop ttl="7" ipaddr="192.168.15.1" rtt="2071.61" host="_gateway"/>
+<hop ttl="8" ipaddr="192.168.15.1" rtt="2081.70" host="_gateway"/>
+<hop ttl="12" ipaddr="192.168.15.1" rtt="3053.93" host="_gateway"/>
+<hop ttl="18" ipaddr="192.168.15.1" rtt="2062.99" host="_gateway"/>
+<hop ttl="20" ipaddr="192.168.15.1" rtt="3072.29" host="_gateway"/>
+<hop ttl="24" ipaddr="192.168.15.1" rtt="1057.79" host="_gateway"/>
+<hop ttl="28" ipaddr="192.168.15.1" rtt="3070.58" host="_gateway"/>
+</trace>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.7" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65535"/>
+</extraports>
+</ports>
+<os></os>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="192.168.15.1" rtt="0.90" host="_gateway"/>
+<hop ttl="9" ipaddr="192.168.15.1" rtt="1058.35" host="_gateway"/>
+<hop ttl="10" ipaddr="192.168.15.1" rtt="1068.42" host="_gateway"/>
+<hop ttl="16" ipaddr="192.168.15.1" rtt="3111.87" host="_gateway"/>
+<hop ttl="19" ipaddr="192.168.15.1" rtt="2974.68" host="_gateway"/>
+<hop ttl="20" ipaddr="192.168.15.1" rtt="1038.17" host="_gateway"/>
+<hop ttl="21" ipaddr="192.168.15.1" rtt="3088.60" host="_gateway"/>
+<hop ttl="24" ipaddr="192.168.15.1" rtt="2098.43" host="_gateway"/>
+<hop ttl="25" ipaddr="192.168.15.1" rtt="1006.91" host="_gateway"/>
+<hop ttl="26" ipaddr="192.168.15.1" rtt="3104.72" host="_gateway"/>
+<hop ttl="27" ipaddr="192.168.15.1" rtt="2016.53" host="_gateway"/>
+</trace>
+</host>
+<host starttime="1746041447" endtime="1746042301"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="192.168.17.8" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65423"/>
+<extrareasons reason="host-unreaches" count="112"/>
+</extraports>
+</ports>
+<os></os>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="192.168.15.1" rtt="0.90" host="_gateway"/>
+<hop ttl="2" ipaddr="192.168.15.1" rtt="1097.79" host="_gateway"/>
+<hop ttl="3" ipaddr="192.168.15.1" rtt="56.90" host="_gateway"/>
+<hop ttl="4" ipaddr="192.168.15.1" rtt="77.11" host="_gateway"/>
+<hop ttl="5" ipaddr="192.168.15.1" rtt="3080.52" host="_gateway"/>
+<hop ttl="6" ipaddr="192.168.15.1" rtt="3100.63" host="_gateway"/>
+<hop ttl="14" ipaddr="192.168.15.1" rtt="3054.66" host="_gateway"/>
+</trace>
+<times srtt="1578331" rttvar="489655" to="1250000"/>
+</host>
+<taskprogress task="SYN Stealth Scan" time="1746042432" percent="6.37" remaining="1925" etc="1746044357"/>
+<taskprogress task="SYN Stealth Scan" time="1746042888" percent="27.06" remaining="1583" etc="1746044470"/>
+<taskprogress task="SYN Stealth Scan" time="1746043062" percent="35.03" remaining="1412" etc="1746044474"/>
+<taskprogress task="SYN Stealth Scan" time="1746043261" percent="44.01" remaining="1222" etc="1746044482"/>
+<taskprogress task="SYN Stealth Scan" time="1746043425" percent="51.46" remaining="1061" etc="1746044485"/>
