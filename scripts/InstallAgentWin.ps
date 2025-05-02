@@ -5,36 +5,44 @@ $Credential = Get-Credential
 $SharePath = "\\192.168.15.165\Agent"
 $InstallerName = "so-elastic-agent_windows_amd64.exe"
 $LocalTempPath = "$env:TEMP\$InstallerName"
-$ServerList = Get-Content -Path ".\servers.txt"
+$RemoteTempPath = "C:\Windows\Temp\$InstallerName"
+$ServerList = Get-Content -Path "C:\Users\soc.analyst2\Desktop\Agent\servers.txt"
 
-# Map the share locally to copy the installer
+# Step 1: Map and copy the installer to local machine (once)
 New-PSDrive -Name Z -PSProvider FileSystem -Root $SharePath -Credential $Credential -Persist
 
 try {
-    # Copy the installer to local temp if not already present
     if (-Not (Test-Path $LocalTempPath)) {
+        Write-Host "Copying installer from share to local TEMP..." -ForegroundColor Yellow
         Copy-Item "Z:\$InstallerName" -Destination $LocalTempPath -Force
     }
+}
+finally {
+    Remove-PSDrive -Name Z -ErrorAction SilentlyContinue
+}
 
-    foreach ($Server in $ServerList) {
-        Write-Host "`nProcessing $Server..." -ForegroundColor Cyan
+# Step 2: Loop through each server
+foreach ($Server in $ServerList) {
+    Write-Host "`nProcessing $Server..." -ForegroundColor Cyan
 
-        # Copy installer to remote server's TEMP folder
-        $RemoteTempPath = "\\$Server\C$\Windows\Temp\$InstallerName"
-        Copy-Item -Path $LocalTempPath -Destination $RemoteTempPath -Credential $Credential -Force
+    try {
+        # Create a PowerShell session
+        $Session = New-PSSession -ComputerName $Server -Credential $Credential
+
+        # Copy the installer to the remote server
+        Copy-Item -Path $LocalTempPath -Destination $RemoteTempPath -ToSession $Session -Force
 
         # Run the installer remotely
-        Invoke-Command -ComputerName $Server -Credential $Credential -ScriptBlock {
+        Invoke-Command -Session $Session -ScriptBlock {
             Start-Process -FilePath "C:\Windows\Temp\so-elastic-agent_windows_amd64.exe" -ArgumentList "/S" -Wait -NoNewWindow
         }
 
-        Write-Host "Installed on $Server" -ForegroundColor Green
+        Write-Host "✅ Installed on $Server" -ForegroundColor Green
+
+        # Clean up session
+        Remove-PSSession $Session
     }
-}
-catch {
-    Write-Error "Error: $_"
-}
-finally {
-    # Clean up the mapped drive
-    Remove-PSDrive -Name Z -ErrorAction SilentlyContinue
+    catch {
+        Write-Host "❌ Failed on $Server: $_" -ForegroundColor Red
+    }
 }
