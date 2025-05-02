@@ -1,48 +1,39 @@
-# Prompt for credentials
-$Credential = Get-Credential
+# Hardcoded credentials
+$username = "administrator"
+$password = ConvertTo-SecureString "Saf3M0d3PAssw0rd" -AsPlainText -Force
+$credential = New-Object System.Management.Automation.PSCredential ($username, $password)
 
-# Define variables
-$SharePath = "\\192.168.15.165\Agent"
-$InstallerName = "so-elastic-agent_windows_amd64.exe"
-$LocalTempPath = "$env:TEMP\$InstallerName"
-$RemoteTempPath = "C:\Windows\Temp\$InstallerName"
-$ServerList = Get-Content -Path "C:\Users\soc.analyst2\Desktop\Agent\servers.txt"
+# Elastic Agent share path
+$installerPath = "\\192.168.15.165\Agent\so-elastic-agent_windows_amd64.exe"
+$installerArgs = "/S"  # Adjust this if a different silent install flag is required
 
-# Step 1: Map and copy the installer to local machine (once)
-New-PSDrive -Name Z -PSProvider FileSystem -Root $SharePath -Credential $Credential -Persist
+# Load IPs from file
+$serverList = Get-Content -Path "C:\Users\soc.analyst2\Desktop\Agent\servers.txt"
 
-try {
-    if (-Not (Test-Path $LocalTempPath)) {
-        Write-Host "Copying installer from share to local TEMP..." -ForegroundColor Yellow
-        Copy-Item "Z:\$InstallerName" -Destination $LocalTempPath -Force
-    }
-}
-finally {
-    Remove-PSDrive -Name Z -ErrorAction SilentlyContinue
-}
-
-# Step 2: Loop through each server
-foreach ($Server in $ServerList) {
-    Write-Host "`nProcessing $Server..." -ForegroundColor Cyan
+foreach ($server in $serverList) {
+    Write-Host "Connecting to $server..."
 
     try {
-        # Create a PowerShell session
-        $Session = New-PSSession -ComputerName $Server -Credential $Credential
+        # Test if the server is reachable
+        if (Test-Connection -ComputerName $server -Count 1 -Quiet) {
 
-        # Copy the installer to the remote server
-        Copy-Item -Path $LocalTempPath -Destination $RemoteTempPath -ToSession $Session -Force
+            # Run the installer remotely
+            Invoke-Command -ComputerName $server -Credential $credential -ScriptBlock {
+                $installer = "\\192.168.15.165\Agent\so-elastic-agent_windows_amd64.exe"
+                if (Test-Path $installer) {
+                    Write-Output "Installer found. Starting installation..."
+                    Start-Process -FilePath $installer -ArgumentList "/S" -Wait -NoNewWindow
+                } else {
+                    Write-Output "Installer path not accessible from remote machine."
+                }
+            }
 
-        # Run the installer remotely
-        Invoke-Command -Session $Session -ScriptBlock {
-            Start-Process -FilePath "C:\Windows\Temp\so-elastic-agent_windows_amd64.exe" -ArgumentList "/S" -Wait -NoNewWindow
+            Write-Host "Installer executed on $server"
+        } else {
+            Write-Host "Server $server is unreachable."
         }
-
-        Write-Host "✅ Installed on $Server" -ForegroundColor Green
-
-        # Clean up session
-        Remove-PSSession $Session
     }
     catch {
-        Write-Host "❌ Failed on $Server: $_" -ForegroundColor Red
+        Write-Host "Failed on $server: $_"
     }
 }
