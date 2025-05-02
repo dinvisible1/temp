@@ -1,0 +1,40 @@
+# Prompt for credentials
+$Credential = Get-Credential
+
+# Define variables
+$SharePath = "\\192.168.15.165\Agent"
+$InstallerName = "so-elastic-agent_windows_amd64.exe"
+$LocalTempPath = "$env:TEMP\$InstallerName"
+$ServerList = Get-Content -Path ".\servers.txt"
+
+# Map the share locally to copy the installer
+New-PSDrive -Name Z -PSProvider FileSystem -Root $SharePath -Credential $Credential -Persist
+
+try {
+    # Copy the installer to local temp if not already present
+    if (-Not (Test-Path $LocalTempPath)) {
+        Copy-Item "Z:\$InstallerName" -Destination $LocalTempPath -Force
+    }
+
+    foreach ($Server in $ServerList) {
+        Write-Host "`nProcessing $Server..." -ForegroundColor Cyan
+
+        # Copy installer to remote server's TEMP folder
+        $RemoteTempPath = "\\$Server\C$\Windows\Temp\$InstallerName"
+        Copy-Item -Path $LocalTempPath -Destination $RemoteTempPath -Credential $Credential -Force
+
+        # Run the installer remotely
+        Invoke-Command -ComputerName $Server -Credential $Credential -ScriptBlock {
+            Start-Process -FilePath "C:\Windows\Temp\so-elastic-agent_windows_amd64.exe" -ArgumentList "/S" -Wait -NoNewWindow
+        }
+
+        Write-Host "Installed on $Server" -ForegroundColor Green
+    }
+}
+catch {
+    Write-Error "Error: $_"
+}
+finally {
+    # Clean up the mapped drive
+    Remove-PSDrive -Name Z -ErrorAction SilentlyContinue
+}
